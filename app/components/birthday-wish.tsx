@@ -72,7 +72,7 @@ const BirthdayApp: React.FC = () => {
               <div
                 key={index}
                 className="cursor-pointer"
-                onClick={() => popBalloon(index)} // Pop balloon on click
+                onClick={() => popBalloon(index)} 
               >
                 <svg
                   className="w-10 transition-transform hover:scale-110"
